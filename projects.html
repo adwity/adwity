@@ -1,4 +1,3 @@
-<!Doctyle html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,12 +5,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<style>
-	img {
-		float: left;
-	}
-</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 	<ul class="topnav">
 		<li><a href="index.html">Home</a></li>
@@ -21,12 +19,61 @@
 		<li class="right"><a href="#">Contact</a></li>
 	</ul>
 
-	<h3 style="font: fantasy;">Here are some of the software projects I've developed or contributed to. Please click on the images to see more information on the projects.</h3>
-	<br>
-	<br>
-	<p><img style="width: 25%" src="alfred.jpg"></p>
-	<p><img style="width: 25%" src="website.jpg"></p>
-	<p><img style="width: 25%" src="pong.png"></p>
-	<p><img style="width: 25%" src="MuseHeadset.jpg"></p>
+	<div class="how-section1">
+		<div class="row">
+			<div class="col-sm-7 how-img">
+				<img src="alfred.jpg" class="img-thumbnail" alt="Alfred"/>
+			</div>
+			<div class="col-sm-5">
+				<h4>Alfred Automated</h4>
+				<h4 class="subheading">An automated drink delivery robot.</h4>
+				<p class="text-muted">
+					For my final year capstone project me and my team developed a drink delivery robot that received instructions from a website to navigate within an office layout, plan paths and deliver drinks.<br>
+					I was responsible for sending and receiving information to and from the robot. Instructions from the website were sent as an Integer Array and was received by the Bluetooth module attached to Alfred.<br>
+					Based on the instructions received, Alfred choses the direction and distance of movement.<br>
+					The robot was also able to detect obstacles and inform the server to receive information about rerouting.
+
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-5">
+				<h4>Website Design</h4>
+				<h4 class="subheading">My personal website to demonstrate my resume and projects.</h4>
+				<p class="text-muted">I designed, developed, coded and published this personal website. <br>
+						I used HTML5, CSS3 and JavaScript to design this website. I used github to publish it online.<br>
+						Bootstrap was only used to 
+				</p>
+			</div>
+
+
+			<div class="col-sm-7 how-img2">
+				<img src="website.jpg" class="rounded-corner img-fluid" alt=""/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-7 how-img">
+				<img src="pong.png" class="rounded-circle img-fluid" alt=""/>
+			</div>
+			<div class="col-sm-5">
+				<h4>Ping Pong</h4>
+				<h4 class="subheading">Redeveloped a classic ping pong game.</h4>
+				<p class="text-muted">For this academic project I worked in a group of three people to redesign and redevelop a simple ping pong game.<br> 
+				We enforced the MVC model for the game.<br> 
+				We added innovative twists such as various speed levels and a new game with one extra ball mode, where the user had to avoid hitting one of the balls. In addition, we also added a multiplayer layer that allowed two people to play the game at the same time.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-5">
+				<h4>Alpha Brain</h4>
+				<h4 class="subheading">Created a software application using Muse Headband for a Hackathon</h4>
+				<p class="text-muted">We collected data from the MUSE head band and analyzed the alpha, beta and theta brain waves to detect mood disorders and early signs of ADHD.<br>
+				Through this project I also learnt to work in a team settings with hard time constrains.</p>
+			</div>
+			<div class="col-sm-7 how-img2">
+				<img src="MuseHeadset.jpg" class="rounded-circle img-fluid" alt="Muse Headband"/>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
