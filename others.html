@@ -1,85 +1,110 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Adwity's demo website/Poems</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="style.css">
-				<style type="text/css">
-				.poemTitleBlock{
-					font-family: sans-serif;
-					overflow: hidden;
-					cursor: pointer;
-	  				padding: 18px;
-	  				width: 100%;
-	  				border: none;
-		  			text-align: left;
-	  				outline: none;
-	  				font-size: 15px;
-	  				transition: 0.4s;
-				}
+<head>
+	<title>Adwity's demo website/Poems</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	.poemTitleBlock{
+		font-family: sans-serif;
+		overflow: hidden;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		border: none;
+		text-align: left;
+		outline: none;
+		font-size: 15px;
+		transition: 0.4s;
+	}
 
-				.blockPadding{
-					padding: 0 18px;
-	  				background-color: white;
-	  				overflow: hidden;
-	  				display: none;
-				}
+	.blockPadding{
+		padding: 0 18px;
+		background-color: white;
+		overflow: hidden;
+		display: none;
+	}
 
-				.active, .poemTitleBlock:hover {
-					background-color: #ccc;
+	.active, .poemTitleBlock:hover {
+		background-color: #ccc;
 
-				}
-				h2{
-					color: #FFF;
-					padding: 18px;
-					background-color: purple;
-					font-family: 'Signika', sans-serif;
-					text-align: center;
+	}
+	h2{
+		color: #FFF;
+		padding: 18px;
+		background-color: purple;
+		font-family: 'Signika', sans-serif;
+		text-align: center;
 
-				}
-				p{
-					text-align: center;
-				}
-		</style>
+	}
+	p{
+		text-align: center;
+	}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	</head>
+</head>
 
-	<body>
-		<ul class="topnav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="resume.html">Resume</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a class= "active" href="others.html">Others</a></li>
-			<li class="right"><a href="contact.html">Contact</a></li>
-		</ul>
+<body>
+	<ul class="topnav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="resume.html">Resume</a></li>
+		<li><a href="projects.html">Projects</a></li>
+		<li><a class= "active" href="others.html">Others</a></li>
+		<li class="right"><a href="contact.html">Contact</a></li>
+	</ul>
 
-		<body >
-		<h2>Poems</h2>
-		<h3><em>These are some poems I wrote over the years. Click on each title to view the poem below.</em></h3>
-		<button class="poemTitleBlock"><strong>Be there for yourself </strong></button>
-			<div class="blockPadding">
-				<p>You cry during movie and hearing a sad song,<br>
-					And support your friends when someone does them wrong.<br>
-					Pity and kindness to strangers; understanding what they go through,<br>
-					Save some up and spare some for yourself too.<br>
-					<br>
-					Don’t push too hard; at times give in to despair and cry.<br>
-					Just as you owe yourself to live each day and try.<br>
-					But when each attempt ends in one more closed door,<br>
-					Cut yourself some slack and love yourself a little more.<br>
-					<br>
-					Look for joy, as if it were your holy grail,<br>
-					Know exactly what you want and look for thrill.<br>
-					Find people who set you free and fly higher than any bird,<br>
-					See their actions beyond any careful web of word.<br>
-					<br>
-					Don’t be blind to things you lack, don’t stumble through internal war,<br>
-					Know yourself, each small flaw and every scar,<br>
-					Remember life as it is and consequences for every wrong deed you bore,<br>
-					And count them up, so for each you can love yourself a little more.<br>
+	<body >
+
+			<div class="how-section1">
+		<div class="row">
+			<div class="col-sm-4 how-img">
+				<img src="adwityImage.jpg" class="img-thumbnail img-circle" alt="Image"/>
+			</div>
+			<div class="col-sm-5">
+				<h4 style="text-align: center;">About</h4>
+
+				<p class="text-muted">
+					My name is Adwity Sharma. I recently completed my Bachelors in Software engineering from McMaster University. My aim is to gain employment opportunities in software engineering department, to gain more experience. I work well with others and enjoy new experiences. <br>
+					I have a passion for designing and writing software application that can solve everyday problems. I also love learning to implement new technologies. <br>
+					My hobies include coding, writing poetry, reading, travelling and painting. Feel free to check out my past and active projects.
+
 				</p>
 			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<h4>Poems</h4>
+		<h3><em>These are some poems I wrote over the years. Click on each title to view the poem below.</em></h3>
+		<button class="poemTitleBlock"><strong>Be there for yourself </strong></button>
+		<div class="blockPadding">
+			<p>You cry during movie and hearing a sad song,<br>
+				And support your friends when someone does them wrong.<br>
+				Pity and kindness to strangers; understanding what they go through,<br>
+				Save some up and spare some for yourself too.<br>
+				<br>
+				Don’t push too hard; at times give in to despair and cry.<br>
+				Just as you owe yourself to live each day and try.<br>
+				But when each attempt ends in one more closed door,<br>
+				Cut yourself some slack and love yourself a little more.<br>
+				<br>
+				Look for joy, as if it were your holy grail,<br>
+				Know exactly what you want and look for thrill.<br>
+				Find people who set you free and fly higher than any bird,<br>
+				See their actions beyond any careful web of word.<br>
+				<br>
+				Don’t be blind to things you lack, don’t stumble through internal war,<br>
+				Know yourself, each small flaw and every scar,<br>
+				Remember life as it is and consequences for every wrong deed you bore,<br>
+				And count them up, so for each you can love yourself a little more.<br>
+			</p>
+		</div>
 
 		<button class="poemTitleBlock"><strong>	Heavenly world </strong></button>
 		<div class="blockPadding">
@@ -114,7 +139,7 @@
 				For me it would be heavenly world.<br>
 
 			</p>
-			</div>
+		</div>
 
 		<button class="poemTitleBlock"><strong>	Memories </strong></button>
 		<div class="blockPadding">
@@ -136,7 +161,7 @@
 			</p>
 		</div>
 
-	<button class="poemTitleBlock"><strong>	The Summer Voyage </strong></button>
+		<button class="poemTitleBlock"><strong>	The Summer Voyage </strong></button>
 		<div class="blockPadding">
 			<p>There once was a sunny and gloomy summer day,<br>
 				And a ship sailed for it won’t lay at bay.<br>
@@ -208,7 +233,7 @@
 				I am from the tall old apple tree<br>
 				that was chopped down after everyone in the house fell from it<br>
 				But not before it gave scars to remind me of it.<br>
-	
+
 			</p>
 		</div>
 		<button class="poemTitleBlock"><strong>	World without light </strong></button>
@@ -235,25 +260,25 @@
 			</p>
 		</div>
 		<script>
-var acc = document.getElementsByClassName("poemTitleBlock");
-var i;
+			var acc = document.getElementsByClassName("poemTitleBlock");
+			var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var blockPadding = this.nextElementSibling;
-    if (blockPadding.style.display === "block") {
-      blockPadding.style.display = "none";
-    } else {
-      blockPadding.style.display = "block";
-    }
-  });
-}
-</script>
+			for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var blockPadding = this.nextElementSibling;
+					if (blockPadding.style.display === "block") {
+						blockPadding.style.display = "none";
+					} else {
+						blockPadding.style.display = "block";
+					}
+				});
+			}
+		</script>
 
 
 		<footer class="footer">
 			<h5>Created by Adwity Sharma</h5>
 		</footer>
 	</body>
-</html>
+	</html>
